@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView android:layout_width="wrap_content"
+        android:text="Interested ? "
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Yes/No"
+        android:layout_margin="10dp"
+        android:id="@+id/interested"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:text="University ? "
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="University of _____"
+            android:layout_margin="10dp"
+            android:id="@+id/dialog_university"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:text="Email ? "
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Method to reach you"
+            android:layout_margin="10dp"
+            android:id="@+id/dialog_email"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

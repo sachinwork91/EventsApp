@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1009162920980",
+    "firebase_url": "https://eventsapp-a86ec.firebaseio.com",
+    "project_id": "eventsapp-a86ec",
+    "storage_bucket": "eventsapp-a86ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009162920980:android:1f65aae789c66baf",
+        "android_client_info": {
+          "package_name": "com.example.sachin.eventapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009162920980-3nbigch5jqcjkgu5b94umtv0cethus3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwP0eIXqeH6WNGsN9y7gbycmEID6JSZ8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

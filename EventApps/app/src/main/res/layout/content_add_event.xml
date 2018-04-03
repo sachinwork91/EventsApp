@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sachin.eventapps.AddEventActivity"
+    android:orientation="vertical"
+
+
+    >
+    <ImageButton
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/addimage1"
+        android:onClick="imageButtonClicked"
+        android:id="@+id/imagebutton"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER TITLE"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/editName"
+        />
+
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER DESCRIPTION"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="SUBMIT"
+        android:onClick="submitButtonClicked"
+        android:layout_marginTop="10dp"
+        android:background="@color/startblue"
+        />
+
+</LinearLayout>
